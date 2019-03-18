@@ -1,0 +1,90 @@
+body {
+  background-color: #E8E8E8;
+}
+
+header {
+  background-color:  #282828;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: 	#0099ff;
+  font-family: 'Georgia', sans-serif;
+}
+
+h3 {
+color: #585858;
+font-family: 'Georgia', sans-serif;
+}
+
+h4 {
+color: #585858;
+font-size: 1rem;
+font-family: 'Georgia', sans-serif;
+
+}
+
+h5 {
+  font-family: 'Georgia', sans-serif;
+  color: gray;
+}
+
+article {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 2.5rem;
+  color: #585858;
+  font-family: 'Georgia', sans-serif;
+}
+
+
+.login {
+  color: 	#0099ff;
+  float: right;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  background-image: url('')
+}
+
+.nav {
+  padding-top: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+
+}
+
+.nav a {
+  color: gray;
+  text-decoration: none;
+  font-family: 'Georgia', sans-serif;
+  width: 50%;
+}
+
+.title {
+  float: right;
+  font-family: 'Lobster', cursive;
+  color: #A9A9A9;
+  font-size: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+}
+
+
+.card-container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px;
+  width: 20%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
